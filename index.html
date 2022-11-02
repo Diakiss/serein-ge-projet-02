@@ -4,11 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>SEREIN-GE PROJET 2</title>
-    <p>Lorem ipsuclnm dolor sit amet, consectetur adipisicing elit. Non rem labore adipisci, eum maxime eius asperiores excepturi consequatur enim impedit? Ex doloremque, cumque minima repellat saepe laborum nobis delectus provident?</p>
+    <link rel="stylesheet" href="index.css"/>
+    <title>SONABEL-PATRIMOINE FONCIER</title>
 </head>
 <body>
-    
+    <header>
+            <ul class="navbarUl">
+                <li class="li"><a href="#">Home</a></li>
+                <li class="li"><a href="#">Tables</a></li>
+                <li class="li"><a href="#">Carthothèques</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+      
+    </header>
+    <main>
+        <form id="form">
+            <div class="r"><input type="text" placeholder="RECHERCHE"/></div>
+            <div class="infoRegion">
+                <div class="infoR">
+                    <label>DIRECTION</label>
+                    <div class="infoInput">
+                        <input type="text" />
+                        <img src="./images/0.png"/>
+                    </div>
+                </div>
+                <div class="infoR">
+                    <label>COMMUNE</label>
+                    <div class="infoInput">
+                        <input type="text" />
+                        <img src="./images/0.png"/>
+                        
+                    </div>
+                    
+                </div>
+                <div class="infoR">
+                    <label>VILLE/VILLAGE</label>
+                    <div class="infoInput">
+                        <input type="text" />
+                        <img src="./images/0.png"/>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="photoABO">
+                <h2>Fond de cartes</h2>
+                <div class="ABO">
+                    <div class="defilet">
+                       <label><input type="checkbox">Photo aerienne</label> 
+                       <img src="./images/defilet.png" alt="defilet"/>
+                    </div>
+                    <div class="defilet">
+                        <label><input type="checkbox">Bing</label> 
+                        <img src="./images/defilet.png" alt="defilet"/>
+                     </div>
+                     <div class="defilet">
+                        <label><input type="checkbox" checked>OpenStreet</label> 
+                        <img src="./images/defilet.png" alt="defilet"/>
+                     </div>
+                     <p>A row without a checkbox</p>
+                </div>
+            </div>
+        </form>
+        <section class="c">
+            <div class="cartes">
+                
+            </div>
+        </section>
+        <section class="affichage">
+            <label><input type="checkbox"/><img class="imgTelecharge" src="./images/techarger.png" alt="techarger"/>AFFICHAGE DE LEGENDE</label>
+            <div class="affiche-content">
+                <div class="rectBPD">
+                    <h2>LEGENDE</h2>
+                    <div class="E">
+                        <div class="Cerc"></div>
+                        <h3>BATIMENTS</h3>
+                    </div>
+                    <div class="E">
+                        <div class="Rect r1"></div>
+                        <h3>PARCELLES</h3>
+                    </div>
+                    <div class="E">
+                        <div class="Rect r2"></div>
+                        <h3>Direction Regionale</h3>
+                    </div>
+                    <div class="E">
+                        <div class="Rect r3"></div>
+                        <h3>Limites Territoriale</h3>
+                    </div>
+                </div>
+                <div class="rectangle">
+                    <h3>Bilan Parcellaires</h3>
+                    <img src="./images/courbe1.png" alt="1" class="t"/>
+                    <h3>Territoire Nationale</h3>
+                </div>
+                <div class="rectangle">
+                    <h3>Bilan Batiments</h3>
+                    <img src="./images/courbe2.png" alt="3" class="t"/>
+                    <h3>Territoire Nationale</h3>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerC">
+             <h2>COPYRIGHT SEREIN-GE</h2>
+             <img src="./images/serein-ge.jpg" alt="1"/>
+        </div>
+        <img src="./images/sonabel.png" alt="3"/>
+    </footer>
 </body>
 </html>
